@@ -1,4 +1,3 @@
-n = int(input(""))
-m = 10
-z = n//m
-print("%d"%z)
+a=int(input())
+b=a//10
+print("%d"%b)
