@@ -1,5 +1,6 @@
-x=input()
-if(len(x)==len(set(x))):
-    print("True")
+s=input()
+ss=set(s)
+if len(s)==len(ss):
+    print(True)
 else:
-    print("False")
+    print(False)
