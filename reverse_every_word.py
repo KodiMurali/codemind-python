@@ -1,4 +1,4 @@
-l=list(map(str,input().split()))
-for i in range(len(l)):
-    l[i]=l[i][::-1]
-print(*l)
+n = list(map(str,input().split()))
+for i in range(len(n)):
+    n[i] = n[i][::-1]
+print(*n)
