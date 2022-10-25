@@ -1,2 +1,3 @@
-n = list(map(str,input().split()))
-print(len(n))
+n = str(input())
+s = n.split()
+print(len(s))
